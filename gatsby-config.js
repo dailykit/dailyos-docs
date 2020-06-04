@@ -5,6 +5,7 @@ module.exports = {
       author: `@prvnbist`,
       menu: [
          { title: 'Introduction', link: '/docs/introduction' },
+         { title: 'intro', link: '/docs/introduction' },
          {
             title: 'Recipe App',
             children: [
