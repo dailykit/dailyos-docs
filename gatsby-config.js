@@ -4,8 +4,7 @@ module.exports = {
       description: `A documentation starter`,
       author: `@prvnbist`,
       menu: [
-         { title: 'Introduction', link: '/docs/introduction' },
-         { title: 'intro', link: '/docs/introduction' },
+         { title: 'Introduction', link: '/docs/introduction' }
          {
             title: 'Recipe App',
             children: [
