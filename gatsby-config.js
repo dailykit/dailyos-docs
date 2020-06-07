@@ -42,8 +42,8 @@ module.exports = {
             children: [
                { title: 'Overview', link: '/docs/inventory/overview' },
                { title: 'Supplier', link: '/docs/inventory/supplier' },
-               { title: 'Supplier Item', link: '/docs/inventory/supplier-item'},
-               { title: 'Purchase Order', link: '/docs/inventory/purchase-order'},
+               { title: 'Supplier Item', link: '/docs/inventory/supplier-item' },
+               { title: 'Purchase Order', link: '/docs/inventory/purchase-order' },
                { title: 'Work Order', link: '/docs/inventory/work-order' }
             ]
          },
@@ -60,13 +60,8 @@ module.exports = {
             children: [
                { title: 'Overview', link: '/docs/setting/overview' },
                { title: 'Devices', link: '/docs/setting/devices' },
-               { 
-                  title: 'Master', link: '/docs/setting/master'
-                  children: [
-                     {title: 'Cuisines', link: '/docs/settings/cuisines'},
-                     {title: 'Processings', link: '/docs/settings/processings'},
-                  ]
-               },
+               { title: 'Cuisines', link: '/docs/settings/cuisines' },
+               { title: 'Processings', link: '/docs/settings/processings' },
                { title: 'Roles', link: '/docs/setting/roles' },
                { title: 'Users', link: '/docs/setting/users' },
                { title: 'Stations', link: '/docs/setting/stations' }
