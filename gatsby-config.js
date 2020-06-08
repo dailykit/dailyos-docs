@@ -10,7 +10,8 @@ module.exports = {
             children: [
                { title: 'Overview', link: '/docs/recipe/overview' },
                { title: 'Create Recipe', link: '/docs/recipe/create' },
-               { title: 'View Recipe', link: '/docs/recipe/view' }
+               { title: 'View Recipe', link: '/docs/recipe/view' },
+               {tittle: 'Create Ingredients', link: '/docs/recipe/create ingredients'}
             ]
          },
          {
