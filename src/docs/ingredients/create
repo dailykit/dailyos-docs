@@ -1,0 +1,24 @@
+## Create Ingredients
+
+In the **Create Recipe** section, while adding ingredients to the recipe, we had noted that the ingredients have to be created from the **Ingredients Module**. In this section, we are going to create ingredients for the recipes.
+
+**Step 1 - Select Ingredients Module**
+We start with Recipe app home screen. There are two modules: **Recipes** and **Ingredients**. To create an ingredient, we select the **Ingredients** module.
+
+**Step 2 - Create Ingredient**
+Inside the Ingredients module, we can view all the created ingredients. Since we haven;t created any ingredient, the default list view is empty. Let's create an ingredient.
+
+To create an ingredient, click **Add** button in the top right corner of the screen.
+
+**Step 3 - Enter Ingredient Information**
+We are redirected to a new tab where we will enter the ingredient information.
+
+1. **Ingredient Name** - Add the name of the ingredient.
+
+2. **Ingredient Category** - Add the category of the ingredient.
+
+3. **Add Photo to your Ingredient** - Upload ingredient image along with short title and brief description about the image.
+
+4. **Add Processing** - Select ingredient processing. Initially, the processing list will be empty. We have to create processing from Settings app >> Master Lists >> Processing.
+
+5. **Add Sachet** - 
