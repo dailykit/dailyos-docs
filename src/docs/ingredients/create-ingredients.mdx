@@ -3,22 +3,71 @@
 In the **Create Recipe** section, while adding ingredients to the recipe, we had noted that the ingredients have to be created from the **Ingredients Module**. In this section, we are going to create ingredients for the recipes.
 
 **Step 1 - Select Ingredients Module**
+
+![Select Ingredients Module](\images\ingredients\create-ingredients\Step1.png "Select Ingredients Module")
+
 We start with Recipe app home screen. There are two modules: **Recipes** and **Ingredients**. To create an ingredient, we select the **Ingredients** module.
 
 **Step 2 - Create Ingredient**
-Inside the Ingredients module, we can view all the created ingredients. Since we haven;t created any ingredient, the default list view is empty. Let's create an ingredient.
+
+![Create ingredient](\images\ingredients\create-ingredients\Step2.png "Create Ingredient")
+
+Inside the **Ingredients** module, we can view all the created ingredients. Since we haven;t created any ingredient, the default list view is empty. Let's create an ingredient.
 
 To create an ingredient, click **Add** button in the top right corner of the screen.
 
 **Step 3 - Enter Ingredient Information**
+
+![Enter Ingredient Information](\images\ingredients\create-ingredients\Step3.0.png "Enter Ingredient Information")
+
 We are redirected to a new tab where we will enter the ingredient information.
 
 1. **Ingredient Name** - Add the name of the ingredient.
 
+![Ingredient Name](\images\ingredients\create-ingredients\Step3.1.png "Ingredient Name")
+
 2. **Ingredient Category** - Add the category of the ingredient.
+
+![Ingredient Category](\images\ingredients\create-ingredients\Step3.2.png "Ingredient Category")
 
 3. **Add Photo to your Ingredient** - Upload ingredient image along with short title and brief description about the image.
 
+![Add Photo to your Ingredient](\images\ingredients\create-ingredients\Step3.3.png "Add Photo to your Ingredient")
+
 4. **Add Processing** - Select ingredient processing. Initially, the processing list will be empty. We have to create processing from Settings app >> Master Lists >> Processing.
 
-5. **Add Sachet** - 
+![Add Processing](\images\ingredients\create-ingredients\Step3.4.png "Add Processing")
+
+5. **Add Sachet** - Select to add sachet.
+	- First, we add the ingredient quantity to be contained inside the sachet along with the quantity measure. Unit of quantity measurement can be selected from the dropdown menu. Initially, the unit of quantity measurement in the dropdown menu will be empty. We have to create the unit of quantity measurement from Settings app >> Master Lists >> Units.
+
+		![Add Ingredient Quantity](\images\ingredients\create-ingredients\step3.5.1.png "Add Ingredient Quantity")
+
+	- Second, we have an option to **Track Inventory**. Enabling this option allows DailyOS to keep track of inventory and provides real-time inventory updates and insights for smooth functioning of kitchen inventory.
+
+		![Enable Track Inventory](\images\ingredients\create-ingredients\step3.5.2.png "Enable Track Inventory")
+
+	- Last, we select the **Mode of Fulfillment** for the selected sachet. Mode of Fulfillment is the method how the selected ingredient will be fulfilled inside the kitchen while preparing and packaging of the individual ingredient. There are two modes of fulfillment: **Real Time** and **Planned Lot**. Real Time mode of fulfillment essentially means that the ingredient will be processed and packaged in real time when a meal kit order arrives of which the ingredient is a part. Planned Lot mode of fulfillment means that the ingredient will be processed and packaged with a preformed planned method ahead of time before a meal kit order arrives.
+
+		To setup **Real Time** mode of fulfillment, we select the option using the **Check Box**. First, we set the **Priority** level. Setting priority means that the selected ingredient will be processed and packaged based on the mode of fulfillment which is set as first priority. We set priority level as 1 when real time mode of fulfillment is on first priority for processing and packaging of the selected ingredient, else we set priority level as 2 when real time mode of fulfillment is on second priority after the planned lot mode of fulfillment. Next, we select the **Station** where the ingredient will be processed and packaged in real time. After selecting the station, next, we select the **Supplier Item**. Initially, the supplier items list will be empty and we have to create the supplier item from Inventory app >> Items >> Create Supplier Items.
+
+		![Setup Real Time Mode of Fulfillment](\images\ingredients\create-ingredients\step3.5.3.png "Setup Real Time Mode of Fulfillment")
+
+		![Setup Real Time Mode of Fulfillment](\images\ingredients\create-ingredients\step3.5.4.png "Setup Real Time Mode of Fulfillment")
+		
+		After selecting station and supplier item, next, we have to configure accuracy level at which the ingredient must be packaged in sachets. We can either select the accuracy level at which the ingredient must be packaged or we can select not to weigh the ingredient while packaging.
+
+		![Configure Accuracy Level](\images\ingredients\create-ingredients\step3.5.5.png "Configure Accuracy Level")
+
+		Select Packaging
+
+		Select Label
+
+		Similarly, to setup **Planned Lot** mode of fulfillment, we select the option using the **Check Box**. The remaining steps to setup and configure planned lot mode of fulfillment remains the same as we have followed to setup and configure real time mode of fulfillment.
+
+Following the setups described in **Add Sachet**, we can create various sachets for the same ingredient. This is particularly required when one recipe has multiple serving sizes and same ingredients are utilised either in different quantities, packaging materials, labels etc. for other serving sizes.
+
+6. **Add Nutritional Values** - Add nutritional values (per 100 gm). Adding nutritional values make the recipe smart with auto-generated nutritional facts. The default nutritional fields include: calories, total fat, saturated & trans fat, cholesterol, sodium, total carbohydrates, proteins, vitamin A, vitamin C, calcium, iron.
+
+**Step 4 - Publish Ingredient**
+The final step in creating an ingredient is to publish the ingredient, such that, it can be used to link with the recipe(s) of which the ingredient is a part. This can be done by pushing the **Toggle Button** located at the top right corner of the screen.
