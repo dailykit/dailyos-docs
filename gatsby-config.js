@@ -13,13 +13,6 @@ module.exports = {
                { title: 'View Recipe', link: '/docs/recipe/view' }]
          },
          {
-            title: 'Ingredient App',
-            children: [
-               { tittle: 'Overview', link: '/docs/ingredients/overview'},
-               { tittle: 'Create Ingredient', link: '/docs/ingredients/create-ingredients'},
-               { tittle: 'View Ingredient', link:'/docs/ingredients/view-ingredients'}]
-         },
-         {
             title: 'Store App',
             children: [
                { title: 'Overview', link: '/docs/store/overview' },
