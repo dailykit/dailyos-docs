@@ -15,8 +15,8 @@ module.exports = {
          {
             title: 'Ingredient App',
             children: [
-               { title: 'Create Ingredient', link: '/docs/ingredients/create-ingredients'},
-               { title: 'View Ingredient', link: '/docs/ingredients/view-ingredients'}]
+               { title: 'Create Ingredient', link: '/docs/ingredients/create-ingredients' },
+               { title: 'View Ingredient', link: '/docs/ingredients/view-ingredients' }]
          },
          {
             title: 'Store App',
@@ -25,8 +25,8 @@ module.exports = {
                { title: 'Type of Products', link: '/docs/store/product-type' },
                { title: 'Inventory Product', link: '/docs/store/inventory-product'},
                { title: 'Simple Recipe Product', link: '/docs/store/simple-recipe-product'},
-               { title: 'Combo Product', link: '/docs/store/customizable-product'},
-               { title: 'Customizable Product', link: '/docs/store/combo-product'},
+               { title: 'Combo Product', link: '/docs/store/customizable-product' },
+               { title: 'Customizable Product', link: '/docs/store/combo-product' },
                { title: 'Setup Menu', link: '/docs/store/setup-menu' }]
          },
          {
@@ -34,9 +34,10 @@ module.exports = {
             children: [
                { title: 'Overview', link: '/docs/inventory/overview' },
                { title: 'Supplier', link: '/docs/inventory/supplier' },
-               { title: 'Supplier Item', link: '/docs/inventory/supplier-item'},
-               { title: 'Purchase Order', link: '/docs/inventory/purchase-order'},
-               { title: 'Work Order', link: '/docs/inventory/work-order' }
+               { title: 'Supplier Item', link: '/docs/inventory/supplier-item' },
+               { title: 'Purchase Order', link: '/docs/inventory/purchase-order' },
+               { title: 'Work Order', link: '/docs/inventory/work-order' },
+               { title: 'Packaging', link: '/docs/inventory/packaging' }
             ]
          },
          {
