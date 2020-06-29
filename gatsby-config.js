@@ -27,6 +27,7 @@ module.exports = {
                { title: 'Simple Recipe Product', link: '/docs/store/simple-recipe-product'},
                { title: 'Combo Product', link: '/docs/store/customizable-product' },
                { title: 'Customizable Product', link: '/docs/store/combo-product' },
+               { title: 'Accompaniments', link:'/docs/store/accopaniments'},
                { title: 'Setup Menu', link: '/docs/store/setup-menu' }]
          },
          {
